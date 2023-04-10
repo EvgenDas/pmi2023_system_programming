@@ -23,29 +23,30 @@ body{
 }
 
 header{
-    width: 1920px;
+    width: 100%;
 }
 
 .header{
     background: black;
-    display: flex;
     
 }
 .graficlogo{
     
-    margin-left: 271px;
+    margin-left: 10%;
 
     width: 141px;
     height: 140px;
 }
 
 nav{
-    margin: auto;
+    background-color: black;
     height: 55px;
+    border-top: 3px solid white;
+
 }
 
 .topnav{
-    background-color: black;
+    margin-top: 15.5px;
     font-size: 20px;
     text-align: center;
 }
@@ -57,12 +58,15 @@ nav{
 }
 
 .topnav a:hover{
-    border-bottom: 2px solid #000;
+    border-bottom: 5px solid #000;
+    color: #8f8f8f;
+    transition-delay:0.02s;
+      
 }
 
 .purchase {
     position: absolute;
-    margin-left: 672px;
+    margin-left: 35%;
     top: 10px;
     white-space: nowrap;
     font-size: 40px;
