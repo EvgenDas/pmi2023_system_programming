@@ -1,36 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     color: white;
     
 }
 
-li{
+li {
     text-decoration: none;
     list-style: none;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 
 }
 
-header{
+header {
     width: 100%;
 }
 
-.header{
+.header {
     background: black;
     
 }
-.graficlogo{
+.graficlogo {
     
     margin-left: 10%;
 
@@ -38,26 +38,26 @@ header{
     height: 140px;
 }
 
-nav{
+nav {
     background-color: black;
     height: 55px;
     border-top: 3px solid white;
 
 }
 
-.topnav{
+.topnav {
     margin-top: 15.5px;
     font-size: 20px;
     text-align: center;
 }
 
-.topnav a{
+.topnav a {
     color:white;
     text-align: center;
     padding: 14px 60px;
 }
 
-.topnav a:hover{
+.topnav a:hover {
     border-bottom: 5px solid #000;
     color: #8f8f8f;
     transition-delay:0.1s;
@@ -91,30 +91,26 @@ nav{
     justify-content: center;
   }
 
-  .intro_title{
+  .intro_title {
     margin-top: 32px;
-
     font-weight: 600;
     font-size: 50px;
-    line-height: 48px;
+    line-height: 60px;
 
     color: #000000;
 }
 
-.main_intro{
-    margin-top: 89px;
-    margin-bottom: 90px;
-
-    display: flex;
-    justify-content: flex-end;
-    grid-template-columns: 1fr repeat(3, auto) 1fr;
-    grid-column-gap: 5px;
-}
-
-.intro_img{
-    width: 466px;
-    height: 649px;
+.main_intro {
+    margin-top: 37px;
+    margin-bottom: 7%;
+    width: 100%;    
     
 }
 
-
+.intro_img {
+    width: 466px;
+    height: 649px;
+    margin-left: 7%;
+    border-radius: 30px;
+    
+}
