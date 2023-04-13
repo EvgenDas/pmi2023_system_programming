@@ -116,3 +116,36 @@ nav {
     border-radius: 30px;
     
 }
+
+.contacts{
+    background: radial-gradient(100% 540.31% at 0% 0%, #EEEEEE 0%, #EEEEEE 100%) no-repeat center;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contacts_title{
+    margin-top: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #000000;
+}
+
+.main_contacts{
+width: 98%;
+margin-top: 42px;
+background: radial-gradient(54.09% 264.49% at 0.59% 0%, #000000 0%, #000000 50.77%, rgba(238, 238, 238, 0) 100%);
+border-radius: 20px;
+height: 709px;
+
+
+
+
+}
