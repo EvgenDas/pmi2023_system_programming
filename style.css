@@ -55,12 +55,13 @@ nav {
     color:white;
     text-align: center;
     padding: 14px 60px;
+    transition: all 0.2s;
 }
 
 .topnav a:hover {
     border-bottom: 5px solid #000;
     color: #8f8f8f;
-    transition-delay:0.1s;
+    
       
 }
 
@@ -93,7 +94,8 @@ nav {
 
   .intro_title {
     margin-top: 32px;
-    font-weight: 600;
+    font-weight: 900;
+    font-style: normal;
     font-size: 50px;
     line-height: 60px;
 
@@ -108,7 +110,7 @@ nav {
 }
 
 .intro_img {
-    width: 466px;
+    width: 505px;
     height: 649px;
     margin-left: 7%;
     border-radius: 30px;
