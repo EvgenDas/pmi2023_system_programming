@@ -117,7 +117,7 @@ nav {
     
 }
 
-.contacts{
+.contacts {
     background: radial-gradient(100% 540.31% at 0% 0%, #EEEEEE 0%, #EEEEEE 100%) no-repeat center;
 
     background-size: cover;
@@ -128,7 +128,7 @@ nav {
 
 }
 
-.contacts_title{
+.contacts_title {
     margin-top: 30px;
     font-weight: 900;
     font-style: normal;
@@ -138,14 +138,29 @@ nav {
     color: #000000;
 }
 
-.main_contacts{
-width: 98%;
-margin-top: 42px;
-background: radial-gradient(54.09% 264.49% at 0.59% 0%, #000000 0%, #000000 50.77%, rgba(238, 238, 238, 0) 100%);
-border-radius: 20px;
-height: 709px;
-
-
-
-
+.main_contacts {
+    width: 98%;
+    margin-top: 42px;
+    background: radial-gradient(54.09% 264.49% at 0.59% 0%, #000000 0%, #000000 50.77%, rgba(238, 238, 238, 0) 100%);
+    border-radius: 20px;
+    height: 85%;
 }
+
+/* .contacts_black_block{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 599px;
+    height: 666px;
+    left: 22px;
+    top: 129px;
+
+    background: #000000;
+    border-radius: 20px;
+} */
+
+.contacts_img{
+    margin-top: 1.5%;
+    width: 40%;
+    height: 100%;
+}
+
