@@ -317,5 +317,105 @@ nav {
     max-height: 477px;
 }
 
+.magazine {
+    background-color: black;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.magazine_title {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 93px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+
+}
+
+.magazine_title span {
+    display:block;
+  }
+
+.main_magazine {
+    margin-top: 57px;
+    background: #000000;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px;
+    width: 1425px;
+    height: 412px;
+  }
+
+  .text_magazine {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .magazine_bottom {
+    margin-top: 97px;
+    margin-bottom: 119px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .left_by_bottom {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .arrow {
+    margin-left: 31px;
+    box-sizing: border-box;
+    width: 80.16px;
+    height: 0px;
+    border: 3px solid #FFFFFF;
+  }
+
+  .magazine_btn {
+
+    margin: auto;
+    margin-left: 17px;
+    width: 286px;
+    height: 90px;
+    
+    border-radius: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #000000;
+  }
+
+  
+
 
 
