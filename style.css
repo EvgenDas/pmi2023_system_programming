@@ -147,14 +147,23 @@ nav {
     margin-top: 42px;
     background: url(img/BackgroundContacts.svg) no-repeat center;
 
-    background-size: contain;
-    margin-left: 1%;
-
     display: flex;
+    
+    
+    width: 95%;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 20px;
     
 }
 
+.contacts_left {
+    margin-top: auto;
+    margin-left: 5%;
+}
+
 .contacts_img{
+    /* //// */
     
     margin-top: 1.5%;
     max-width: 100%;
@@ -162,8 +171,8 @@ nav {
 }
 
 .send_wrapper {
-    margin-left: 20%;
-    margin-right: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,7 +285,6 @@ nav {
 }
 
 .main_about {
-    width: 100%;
 
     height: 100%;
 
@@ -285,22 +293,24 @@ nav {
 
     display: flex;
     margin-bottom: 144px;
+
+    justify-content: center;
 }
 
 .about_right {
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: 2%;
 }
 
 .about_left {
     margin-left: 2%;
-    width: 590px;
+    width: 35%;
     max-height: 477px;
     background: #FFFFFF;
     border: 2px solid #000000;
     border-radius: 0px 20px;
+    padding: 20px;
     
-
 }
 .text_about {
     font-family: 'Montserrat';
@@ -310,6 +320,23 @@ nav {
     line-height: 27px;
 
     color: #000000;
+
+    padding-right: 10px;
+    height: 100%;
+    overflow-y: scroll
+}
+
+.text_about::-webkit-scrollbar {
+    width: 6px;               
+}
+  
+.text_about::-webkit-scrollbar-track { 
+    background: white;        
+}
+
+.text_about::-webkit-scrollbar-thumb {
+    background-color: black;    
+    border-radius: 20px;      
 }
 
 .about_img {
