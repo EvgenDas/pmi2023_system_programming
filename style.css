@@ -19,6 +19,7 @@ li {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 
 }
 
@@ -157,20 +158,90 @@ nav {
 }
 
 .contacts_left {
-    margin-top: auto;
-    margin-left: 5%;
+    width: 599px;
+    height: 666px;
+    background: #000000;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-bottom:1%;
 }
 
-.contacts_img{
-    /* //// */
-    
-    margin-top: 1.5%;
-    max-width: 100%;
-    height: 100%;
+.contact_block {
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 5%;
+}
+
+
+
+.number_and_messangers {
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40%;
+}
+
+.phone_img {
+    margin-right: 20px;
+}
+
+.messangers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inst_img {
+    margin-right: 15%;
+}
+
+.what_img {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.tg_img {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.phone {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin-top:7%;
+    margin-left: 9.5%;
+}
+
+.mail_img {
+    margin-right: 20px;
 }
 
 .send_wrapper {
-    margin-left: 5%;
+    margin-left: 15%;
     margin-right: 5%;
     display: flex;
     flex-direction: column;
