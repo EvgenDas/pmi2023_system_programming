@@ -627,18 +627,28 @@ nav {
     flex-direction:row;
     align-items: center;
     justify-content: center;
+    
+
 
     
     width: 100%;
     background-color: #000;
+    
+ }
+
+ .footer_logo {
+    
+
+    width: 141px;
+    height: 140px;
+
  }
 
  .footer_name {
 
-    margin-left: 14%;
-    margin-right: 23%;
+
     white-space: nowrap;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
  }
 
@@ -648,18 +658,30 @@ nav {
   }
   
   .footer_name span:nth-child(2) {
-    font-size: 50px;
+    font-size: 40px;
   }
-  .line_1 {
-    margin-top:px;
-    
-    width: 577px;
-    box-sizing: border-box;
 
+  .lines {
+    background-size: cover;
 
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
     border: 3px solid #FFFFFF;
   }
   
+  .notion {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    
+  }
 
-
+  .notion span {
+    display: block;
+  }
 
