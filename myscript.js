@@ -1,7 +1,10 @@
-var footer_logo = document.getElementById("footer_logo")
-var notion = document.getElementById("notion")
+$(document).ready(function() {
+    $('.header_burger').click(function(event) {
+        $('.header_burger, .topnav').toggleClass('active');
+    });
 
-alert(notion.style.offsetWidth)
-
-footer_logo.style.offsetWidth = notion.style.offsetWidth
-
+$('.header, .intro').click(function(event) {
+    $('.header_burger, .topnav').removeClass('active');
+    });
+});
+ 
