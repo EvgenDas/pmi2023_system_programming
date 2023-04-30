@@ -34,12 +34,12 @@ header {
 .graficlogo {
     
     margin-left: 15%;
-
     width: 141px;
     height: 140px;
 }
 
 nav {
+    width: 100%;
     background-color: black;
     height: 55px;
     border-top: 3px solid white;
@@ -47,7 +47,8 @@ nav {
 }
 
 .topnav {
-    margin-top: 15.5px;
+    position: relative;
+    top: 15.5px;
     font-size: 20px;
     text-align: center;
 }
@@ -109,9 +110,10 @@ nav {
 }
 
 .intro_img {
+    position: relative;
     width: 505px;
     height: 649px;
-    margin-left: 7%;
+    left: 7%;
     border-radius: 30px;
     
 }
@@ -124,7 +126,6 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
 }
 
@@ -145,8 +146,6 @@ nav {
 
     margin-top: 42px;
     background: url(img/Contacts.svg) no-repeat center;
-    /* background: radial-gradient(54.09% 264.49% at 0.59% 0%, #000000 0%, #000000 50.77%, rgba(238, 238, 238, 0) 100%); */
-
     display: flex;
     
     
@@ -447,8 +446,23 @@ nav {
     background: #000000;
     border: 5px solid #FFFFFF;
     border-radius: 20px;
-    width: 1425px;
-    height: 412px;
+    height: 100%;
+
+    background-size: cover;
+
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .magazine_info {
+    margin-left: 2%;
+    width: 95%;
+    max-height: 480px;
+    background: black;
+    border: 2px solid #000000;
+    border-radius: 0px 20px;
+    padding: 20px;
   }
 
   .text_magazine {
@@ -461,7 +475,24 @@ nav {
     text-align: center;
 
     color: #FFFFFF;
+    padding-right: 10px;
+    height: 100%;
+    overflow-y: scroll
   }
+
+  
+    .text_magazine::-webkit-scrollbar {
+        width: 6px;               
+    }
+    
+    .text_magazine::-webkit-scrollbar-track { 
+        background: black;        
+    }
+
+    .text_magazine::-webkit-scrollbar-thumb {
+        background-color: white;    
+        border-radius: 20px;      
+    }
 
   .magazine_bottom {
     margin-top: 97px;
@@ -693,7 +724,90 @@ nav {
     display:  none;
   }
 
-  @media screen and (max-width:768px) {
+
+
+
+
+
+
+
+  @media (max-width:1550px) {
+    body {
+     width:100%;
+     overflow-x: hidden;
+    }
+ 
+    /* contacts */
+ 
+    .number_and_messengers {
+     background-size: cover;
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10%;
+ }
+ 
+     .number {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 5%;
+         
+     }
+ 
+     .phone_img {
+         margin-right: 20px;
+     }
+ 
+     .messengers {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+     }
+ 
+     .inst_img {
+         margin-right: 30%;
+     }
+ 
+     .what_img {
+         margin-right: 30%;
+         margin-left: 30%;
+     }
+ 
+     .tg_img {
+         margin-right: 30%;
+         margin-left: 30%;
+     }
+ 
+     .phone {
+         color: #FFFFFF;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 24px;
+     }
+ 
+     .mail {
+         display: flex;
+         flex-direction: row;
+         align-items:flex-start;
+         justify-content:flex-start;
+         margin-top:7%;
+         margin-left: 12%;
+         
+     }
+ 
+     .mail_img {
+         margin-right: 20px;
+     }
+ }
+
+
+
+ 
+ @media screen and (max-width:1260px) {
     nav {
         position: absolute;
         top: -5px;
@@ -757,7 +871,7 @@ nav {
         width: 40%;
         top:0;
         right: -50%;
-        background: black;
+        background: rgba(0, 0, 0, 0.9);
         height: 100%;
         
         
@@ -799,3 +913,51 @@ nav {
         transform: scale(0);
     }
   }
+
+
+
+  
+  @media (max-width:935px) {
+    .purchase {
+        position: absolute;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 10px;
+        white-space: nowrap;
+        font-size: 25px;
+        text-align: center;
+      }
+      
+      .purchase span {
+        display: block;
+      }
+      
+      .purchase span:nth-child(2) {
+        font-size: 35px;
+      }
+
+      .graficlogo {
+    
+        margin-left: 5%;
+        width: 121px;
+        height: 120px;
+    }
+
+    /* intro */
+
+    .intro_title {
+        font-size: 40px;
+    }
+
+    .intro_img {
+        width: 353.5px;
+        height: 454.3px;
+        
+    }
+    
+}
+
+
+  
+
+  
