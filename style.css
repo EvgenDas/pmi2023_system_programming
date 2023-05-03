@@ -30,8 +30,6 @@ header {
 
 .header {
     background: black;
-    
-    
 }
 .graficlogo {
     
@@ -923,7 +921,8 @@ nav {
       }
 
       .partners_mid {
-        margin-top: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         margin-left: 0;
         display: flex;
         flex-direction:row;
@@ -1078,7 +1077,477 @@ nav {
     .notion_text {
         margin-top: 10px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+
+
+    /* menu */
+
+    nav {
+        position: absolute;
+        top: -30px;
+        right: 0;
+
+
+        width: auto;
+        height: auto;
+        background: none ;
+    }
+
     
+    .header_burger{
+        margin-right: 0px;
+    }
+
+
+    /* header */
+
+
+    .purchase {
+        position: absolute;
+        margin-left: 25%;
+        margin-right: 0%;
+        margin-top: 15px;
+        white-space: nowrap;
+        font-size: 15px;
+        text-align: center;
+      }
+      
+      
+      .purchase span:nth-child(2) {
+        font-size: 25px;
+      }
+
+      .graficlogo {
+    
+        margin-left: 5%;
+        width: 90px;
+        height: 90px;
+    }
+
+    /* intro */
+
+    .intro_title {
+        font-size: 30px;
+    }
+
+    .intro_img {
+        width: 282px;
+        height: 363px;
+        
+    }
+
+    /* contacts */
+
+        
+    .contacts_title {   
+        font-size: 30px;
+    }
+
+
+
+    .contacts_left {
+        width: 90%;
+     
+    }
+
+    .contact_block {
+
+        font-size: 25px;
+    }
+
+
+    .info {
+
+        background-size: cover;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .messengers {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 1%;
+        margin-right: 0%;
+ 
+        width: 90%;
+        
+    }
+
+    .number , .mail{
+
+        width: 90%;
+    }
+
+    .mail{
+        margin-top: 10%;
+    }
+
+    .phone_img, .mail_img{
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+
+    .send_title {
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+
+    .send_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input_forms{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .form3 {
+        width: 255px;
+        height: 70px;
+        margin-top: 15%;
+       
+    }
+
+
+
+
+     /* about */
+
+
+     .about_title {
+        font-size: 30px;
+    }
+
+    .about_right {
+        margin-left: 0;
+        margin-right: 0%;
+    }
+    
+    .about_left {
+        margin-left: 0;
+        width: 35%;
+        height: 200px;
+       
+    }
+
+    .about_img {
+        margin-right: 25px;
+        height: 170px;
+        width: 280px;
+    }
+
+
+    /* magazine */
+
+        
+    
+
+    .magazine_title {
+        white-space: nowrap;
+        text-align: center;
+        margin-top: 60px;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: white;
+
+    }
+
+
+  
+
+    .magazine_info {
+        margin-left: 2%;
+        width: 95%;
+        max-height: 300px;
+        background: black;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .text_magazine {
+
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 60px;
+        
+
+        text-align: center;
+
+        color: #FFFFFF;
+        padding-right: 10px;
+        height: 100%;
+        overflow-y: scroll
+    }
+
+
+    .magazine_bottom {
+        margin-top: 97px;
+        margin-bottom: 119px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .left_by_bottom {
+        
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 60px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .arrow {
+        margin-left: 0px;
+        box-sizing: border-box;
+        width: 0px;
+        height: 0px;
+        border: 0px solid #FFFFFF;
+    }
+
+    .magazine_btn {
+        
+
+        margin: auto;
+        margin-left: 10px;
+        width: 200px;
+        height: 70px;
+        
+        border-radius: 50px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+
+    /* partners */
+
+
+
+      .partners_left {
+
+        margin-left: 0;
+        height: 100%;
+        width: 100%;
+      }
+    
+      .partner {
+        margin-top: 27%;
+        margin-bottom: 15%;
+      }
+    
+    
+      .partners_right {
+        margin-left: 0;
+        height: 100%;
+        width: 100%;
+      }
+    
+      .partner_img {
+        max-width: 100px;
+        max-height: 100px;
+      }
+
+      .partners_mid {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 0;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .line {
+        border: 0;
+        width: 0;
+      }
+    
+      .partner_mid {
+        margin: auto;
+        color: #FFFFFF;
+        
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+    
+        text-align: center;
+        white-space: nowrap;
+      }
+    
+    .partner_mid span {
+        display:block;
+        font-size: 40px;
+     }
+
+
+    /* footer */
+
+    .footer_name {
+
+    white-space: nowrap;
+    font-size: 15px;
+    text-align: center;
+    }
+
+    
+    
+    
+    .footer_name span:nth-child(2) {
+    font-size: 25px;
+    }
+        
+         
+    .footer_logo_block {
+        width: 25%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .footer_logo {
+        
+
+        width: 90px;
+        height: 90px;
+
+    }
+
+    
+    .notion {
+        width: 23%;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 8px;
+        color: #FFFFFF;
+    }
+
+    .notion_text {
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width:465px) {
+
+
+    /* menu */
+
+    nav {
+        top: -40px;
+ 
+    }
+
+
+    /* header */
+
+
+    .purchase {
+        position: absolute;
+        margin-left: 23%;
+        margin-right: 0%;
+        margin-top: 7px;
+        white-space: nowrap;
+        font-size: 13px;
+        text-align: center;
+      }
+      
+      
+      .purchase span:nth-child(2) {
+        font-size: 17px;
+      }
+
+      .graficlogo {
+    
+        margin-left: 5%;
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /* footer */
+
+    .footer_name {
+
+        white-space: nowrap;
+        font-size: 13px;
+        text-align: center;
+        }
+    
+        
+        
+        
+        .footer_name span:nth-child(2) {
+        font-size: 17px;
+        }
+            
+             
+        .footer_logo_block {
+            width: 23%;
+    
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .footer_logo {
+            
+    
+            width: 60px;
+            height: 60px;
+    
+        }
+    
+        
+        .notion {
+            width: 23%;
+            font-weight: 400;
+            font-size: 6px;
+            line-height: 7px;
+            color: #FFFFFF;
+        }
+    
+        .notion_text {
+            margin-top: 5px;
+        }
+
+
+        /* изменить размеры шрифтов в секциях */
+
 }
 
 
