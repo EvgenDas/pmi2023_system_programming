@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    }
+
 * {
     margin: 0;
     padding: 0;
@@ -236,6 +240,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .input_forms{
@@ -711,6 +716,9 @@ nav {
  }
 
 
+ 
+
+
 
  
  @media screen and (max-width:1260px) {
@@ -849,13 +857,13 @@ nav {
     }
 
     .about_right {
-        margin-left: 0;
-        margin-right: 17%;
+        margin-left: 7%;
+        margin-right: 0;
     }
     
     .about_left {
         margin-left: 0;
-        width: 35%;
+        width: 90%;
         height: 477px;
         background: #FFFFFF;
         border: 2px solid #000000;
@@ -865,8 +873,9 @@ nav {
     }
 
     .about_img {
-        height: 340px;
-        width: 590.4px;
+        height: 477px;
+        width: 90%;
+        
     }
 
 
@@ -955,6 +964,8 @@ nav {
 
 
   @media (max-width:935px) {
+
+    
     .purchase {
         position: absolute;
         margin-left: 35%;
@@ -978,6 +989,11 @@ nav {
         margin-left: 5%;
         width: 121px;
         height: 120px;
+    }
+
+    .header_burger {
+        top: 65px;
+        margin-right: 0px;
     }
 
     /* intro */
@@ -1095,7 +1111,7 @@ nav {
 
     nav {
         position: absolute;
-        top: -30px;
+        top: -5px;
         right: 0;
 
 
@@ -1104,9 +1120,29 @@ nav {
         background: none ;
     }
 
+
+    .topnav {
+        top: 15.5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .topnav a {
+        color:white;
+        text-align: center;
+        padding: 7px 20px;
+        transition: all 0.3s;
+    }
+    
+    .topnav a:hover {
+        border-bottom: 5px solid #000;
+        color: #8f8f8f;
+    }
+
     
     .header_burger{
         margin-right: 0px;
+        top: 55px;
     }
 
 
@@ -1221,8 +1257,22 @@ nav {
         justify-content: space-between;
     }
 
+    .form1 {
+        border-bottom: 1px solid black;
+        width: 350px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .form2 {
+        border-bottom: 1px solid black;
+        width: 350px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
     .form3 {
-        width: 255px;
+        width: 400px;
         height: 70px;
         margin-top: 15%;
        
@@ -1239,22 +1289,24 @@ nav {
     }
 
     .about_right {
-        margin-left: 0;
+        margin-left: 7%;
         margin-right: 0%;
     }
     
     .about_left {
-        margin-left: 0;
-        width: 35%;
-        height: 200px;
+        width: 90%;
+        height: 477px;
+        padding: 15px;
        
     }
 
     .about_img {
-        margin-right: 25px;
-        height: 170px;
-        width: 280px;
+        height: 477px;
+        width: 90%;
     }
+    
+
+
 
 
     /* magazine */
@@ -1467,8 +1519,13 @@ nav {
     /* menu */
 
     nav {
-        top: -40px;
+        top: -50px;
  
+    }
+
+    .header_burger{
+        margin-right: 0px;
+        top: 85px;
     }
 
 
@@ -1543,6 +1600,74 @@ nav {
     
         .notion_text {
             margin-top: 5px;
+        }
+
+
+        /* about */
+
+
+
+        .about_right {
+            margin-left: 7%;
+            margin-right: 0%;
+        }
+        
+        .about_left {
+            width: 88%;
+            height: 477px;
+        
+        }
+
+        .about_img {
+            height: 477px;
+            width: 90%;
+        }
+
+
+        /* partners */
+
+
+        .partner_mid {
+            margin: auto;
+            color: #FFFFFF;
+            
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 35px;
+        
+            text-align: center;
+            white-space: nowrap;
+          }
+
+
+          .partner_p {
+            margin-top:5%;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: 500;
+          }
+
+
+
+          .form1 {
+            border-bottom: 1px solid black;
+            width: 250px;
+            height: 50px;
+            margin-bottom: 20px;
+        }
+        
+        .form2 {
+            border-bottom: 1px solid black;
+            width: 250px;
+            height: 50px;
+            margin-bottom: 20px;
+        }
+    
+        .form3 {
+            width: 300px;
+            height: 70px;
+            margin-top: 15%;
+           
         }
 
 
