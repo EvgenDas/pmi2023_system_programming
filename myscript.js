@@ -9,13 +9,11 @@ $('.header, .intro, .contacts, .about, .magazine, .partners').click(function(eve
 });
 
 
-let btn = document.querySelector("button");
 
-btn.addEventListener("click", active);
-
-function active() {
-  btn.classList.toggle("is_active");
-}
+document.addEventListener('submit', function () {
+    $('#button').toggleClass("is_active");
+    $('#button').prop('disabled', true);
+  })
 
 
 
@@ -31,4 +29,27 @@ $('.topnav a').on('click', function() {
     });
 
     return false;
+});
+
+
+
+$(document).ready(function(){
+    $("#form").submit(function() {
+        var form_data = $(this).serialize(); 
+        
+        $.ajax({
+            type: "POST",
+            url: "telegram.php",
+            data: form_data,
+            success: swal({
+                title: "Спасибо за заявку",
+                icon: "success",
+                timer: 2000
+            })
+            
+
+        });
+
+        event.preventDefault();
+    });
 });

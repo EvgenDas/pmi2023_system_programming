@@ -84,30 +84,28 @@
                 </h1>
                 
                 
-                <form action="" class="form">
+                <form id="form" class="form">
                     <div class="send_form">
                         <div class="input_forms">
-                            <input type="text" class="form1 formstyle" placeholder="Имя" required>
-                            <input type="text" class="form2 formstyle" placeholder="Фамилия">
+                            <input name="name" type="text" class="form1 formstyle" placeholder="Имя" required>
+                            <input name="surname" type="text" class="form2 formstyle" placeholder="Фамилия">
                         </div>
 
                         <div class="input_forms">
-                            <input type="text" class="form1 formstyle" placeholder="Номер телефона" required>
-                            <input type="email" class="form2 formstyle" placeholder="Email">
+                            <input name="phone" type="tel" class="form1 formstyle" placeholder="Номер телефона" required>
+                            <input name="email" type="email" class="form2 formstyle" placeholder="Email">
                         </div>
 
-                        <textarea class="form3 formstyle" cols="30" rows="10" placeholder="Напишите ваше сообщение" maxlength="250"></textarea>
+                        <textarea name="text" class="form3 formstyle" cols="30" rows="10" placeholder="Напишите ваше сообщение" maxlength="250"></textarea>
 
-                        <button class="send_button">
+                        <button id="button" class="send_button">
                             <span>Отправить сообщение</span>
                             <div class="success">
                             <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
-                              
-                          <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
-                         </svg>
+                                <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
+                            </svg>
                               </div>
                           </button>
-                        <!-- <button class="send_button">Отправить сообщение</button> -->
                     </div>
                 </form>
         </div>
@@ -175,10 +173,6 @@
 
                 <div class="magazine_btn"><a class="a1" href="https://mathematicsoffreedom.ru">Математика свободы</a>
                 </div>
-                    
-                <!-- <form action="https://mathematicsoffreedom.ru" target="_blank">
-                    <button class="magazine_btn">Математика свободы</button>
-                </form> -->
             </div>
     </section>
 
@@ -253,11 +247,11 @@
                 <p class="notion_text">Оферта</p>
             </div>
         </div>
-
     </footer>
 
 
     <script src="animation\jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="myscript.js"></script>
 
 </body>
