@@ -41,11 +41,14 @@ $(document).ready(function(){
             type: "POST",
             url: "telegram.php",
             data: form_data,
-            success: swal({
+            success: 
+            swal({
                 title: "Спасибо за заявку",
-                icon: "success",
+                icon:"success",
+                
                 timer: 2000
             })
+            
             
 
         });

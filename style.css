@@ -199,6 +199,20 @@ nav {
     width: 50%;
 }
 
+
+
+
+a svg:hover{
+    stroke: #201f1f;
+    stroke-width: 10%;
+    stroke-dasharray: 5%;
+    
+
+  }
+
+
+
+
 .phone {
     color: #FFFFFF;
     font-weight: 400;
@@ -298,7 +312,6 @@ nav {
 
 
 button{
-    
     margin-bottom: 7%;
     margin-top: 5%;
     transform: translate(-0%, -0%);
@@ -345,7 +358,7 @@ button{
   .success svg{
     width: 20px;
     height: 20px;
-    fill: rgb(100, 100, 100);
+    fill: rgb(123, 120, 120);
     transform-origin: 50% 50%;
     transform: translateY(-50%) rotate(0deg) scale(0);
     transition: all .35s;
@@ -1600,7 +1613,7 @@ button{
 
     .header_burger{
         margin-right: 0px;
-        top: 82px;
+        top: 70px;
     }
     
 
@@ -1764,6 +1777,7 @@ button{
         /* изменить размеры шрифтов в секциях */
 
 }
+
 
 
   
