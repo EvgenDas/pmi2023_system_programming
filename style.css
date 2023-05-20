@@ -1616,6 +1616,14 @@ button{
         top: 70px;
     }
     
+ 
+
+    .topnav.active {
+        right: 0;
+        width: 60%;
+    }
+
+
 
 
     /* header */
